@@ -3,7 +3,9 @@ Build a "mimic" dict that maps each word that appears in the alice.txt file to a
 
 With the mimic dict, it's fairly easy to emit random text that mimics the original. Print a word, then look up what words might come next and pick one at random as the next word.
 
-For fun, feed your program to itself as input.
+For fun, feed your program to itself as input. 
+
+In order to test if your file is functioning, you enter `python python_filename.py text_filename.txt` inside your terminal. This is like how you would test in the List and Strings assessments, but you need the extra part that specifies the file.
 
 # Sample Output, using alice.txt as input
 ```
